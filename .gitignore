@@ -1,0 +1,22 @@
+# Environnement virtuel
+my_venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Données (souvent volumineuses, PaySim fait ~470 Mo)
+data/raw/
+data/processed/
+
+# Éditeur / système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
